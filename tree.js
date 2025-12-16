@@ -1,7 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 
-const rootDir = process.cwd();
+const targetDir = process.argv[2] || process.cwd();
+const rootDir = path.resolve(targetDir);  
 
 function generateTree(dir, indent = "") {
   const items = fs.readdirSync(dir);
