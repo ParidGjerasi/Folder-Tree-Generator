@@ -9,13 +9,14 @@ Node.js and Javascript
 
 ## Installation | | How to use
 
-First clone the repo:
+- First clone the repo:
 git clone https://github.com/ParidGjerasi/Folder-Tree-Generator.git
 
-In the repository of your choice you can run: (copy paste it)
-node ./Folder-Tree-Generator/tree.js
+- In the repository of your choice you can run: (copy paste it)
 
-This will provide clean tree of your work folder/files and it can be implemented directly into your README.md
+     ```node ./Folder-Tree-Generator/tree.js```
+
+ - This will provide clean tree of your work folder/files and it can be implemented directly into your README.md
 
 
 ## Example:
